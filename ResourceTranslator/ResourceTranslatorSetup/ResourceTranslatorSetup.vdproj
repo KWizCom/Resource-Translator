@@ -288,7 +288,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:KWizCom Resource Translator"
         "ProductCode" = "8:{E8D538D9-E2C2-4FA5-9B9D-9E696D749541}"
-        "PackageCode" = "8:{B1D4CB52-E77B-4F84-8308-3957829334E0}"
+        "PackageCode" = "8:{03B65A76-C5D6-4C2A-BB9E-4FAA779EDAC4}"
         "UpgradeCode" = "8:{E829457A-A4E1-4C8F-A75A-996F98989F1D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -410,7 +410,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_0B0EA238DC7C4888B055708F03C245C2"
             {
-            "Name" = "8:ResourceTranslator"
+            "Name" = "8:Resource Translator"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
