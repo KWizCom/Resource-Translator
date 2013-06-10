@@ -10,7 +10,6 @@ using System.ServiceModel.Channels;
 using System.Windows.Forms;
 using KWizCom.ResourceTranslator.Controls;
 using KWizCom.ResourceTranslator.Utilities;
-//using Microsoft.WindowsAPICodePack.Shell;
 
 namespace KWizCom.ResourceTranslator.Forms
 {
@@ -82,19 +81,7 @@ namespace KWizCom.ResourceTranslator.Forms
             System.Windows.Forms.Timer delayLoadTimer = new System.Windows.Forms.Timer();
             delayLoadTimer.Tick += new EventHandler(delayLoadTimer_Tick);
             delayLoadTimer.Interval = 250;
-            delayLoadTimer.Enabled = true;
-
-            #region AeroGlass
-            //if (AeroGlassCompositionEnabled)
-            //{
-            //    foreach (Control c in this.Controls)
-            //    {
-            //        ExcludeControlFromAeroGlass(c);
-            //    }
-            //}           
-
-            //lnkEdit.Enabled = lnkDelete.Enabled = listBox1.SelectedItem != null; 
-            #endregion
+            delayLoadTimer.Enabled = true;           
         }
 
         #endregion

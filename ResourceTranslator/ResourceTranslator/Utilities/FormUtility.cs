@@ -7,7 +7,6 @@ using System.ServiceModel;
 using System.ServiceModel.Channels;
 using System.Windows.Forms;
 using KWizCom.ResourceTranslator.Forms;
-using KWizCom.ResourceTranslator.Utilities;
 
 namespace KWizCom.ResourceTranslator.Utilities
 {

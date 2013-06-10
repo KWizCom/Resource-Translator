@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using KWizCom.ResourceTranslator.Controls;
-using System.Globalization;
 //using Microsoft.WindowsAPICodePack.Shell;
 
 namespace KWizCom.ResourceTranslator.Forms

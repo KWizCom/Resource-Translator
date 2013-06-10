@@ -1,5 +1,4 @@
-﻿using KWizCom.ResourceTranslator.Utilities;
-
+﻿
 namespace KWizCom.ResourceTranslator.Utilities
 {
     public static class LogUtility
