@@ -224,7 +224,6 @@
     <Content Include="Images\error_icon.ico" />
     <Content Include="Images\loading-animation.gif" />
     <Content Include="Images\loading.gif" />
-    <Content Include="Miscellaneous\BINGAPPID.txt" />
     <None Include="Service References\TranslatorService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
