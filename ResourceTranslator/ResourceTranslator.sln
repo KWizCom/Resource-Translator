@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceTranslator", "ResourceTranslator\ResourceTranslator.csproj", "{9AD4D126-6D17-461A-B2FF-8DA34E969257}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ResourceTranslatorSetup", "ResourceTranslatorSetup\ResourceTranslatorSetup.vdproj", "{0FA1A89F-082D-47E9-90E2-CF4AB1DBA322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceTranslatorInstaller", "ResourceTranslatorInstaller\ResourceTranslatorInstaller.csproj", "{37A36791-A888-4D4A-93BA-050FAF043E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceTranslatorTester", "ResourceTranslatorTester\ResourceTranslatorTester.csproj", "{84375BBD-52AD-446B-A42C-56A94895F431}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{9BFA809B-A713-42C0-8257-776878CC5518}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\KWizCom End User License Agreement.rtf = Resources\KWizCom End User License Agreement.rtf
+		Resources\KWizCom.ico = Resources\KWizCom.ico
+		Resources\KWizCom_Setup_Banner.bmp = Resources\KWizCom_Setup_Banner.bmp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs14
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ResourceTranslator\\ResourceTranslator.csproj
+		SccProjectName1 = ResourceTranslator
+		SccLocalPath1 = ResourceTranslator
+		SccProjectUniqueName2 = ResourceTranslatorInstaller\\ResourceTranslatorInstaller.csproj
+		SccProjectName2 = ResourceTranslatorInstaller
+		SccLocalPath2 = ResourceTranslatorInstaller
+		SccProjectUniqueName3 = ResourceTranslatorSetup\\ResourceTranslatorSetup.vdproj
+		SccProjectName3 = ResourceTranslatorSetup
+		SccLocalPath3 = ResourceTranslatorSetup
+		SccProjectUniqueName4 = ResourceTranslatorTester\\ResourceTranslatorTester.csproj
+		SccProjectName4 = ResourceTranslatorTester
+		SccLocalPath4 = ResourceTranslatorTester
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AD4D126-6D17-461A-B2FF-8DA34E969257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD4D126-6D17-461A-B2FF-8DA34E969257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD4D126-6D17-461A-B2FF-8DA34E969257}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9AD4D126-6D17-461A-B2FF-8DA34E969257}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9AD4D126-6D17-461A-B2FF-8DA34E969257}.Debug|x86.ActiveCfg = Debug|x86
+		{9AD4D126-6D17-461A-B2FF-8DA34E969257}.Debug|x86.Build.0 = Debug|x86
+		{9AD4D126-6D17-461A-B2FF-8DA34E969257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD4D126-6D17-461A-B2FF-8DA34E969257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD4D126-6D17-461A-B2FF-8DA34E969257}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9AD4D126-6D17-461A-B2FF-8DA34E969257}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9AD4D126-6D17-461A-B2FF-8DA34E969257}.Release|x86.ActiveCfg = Release|x86
+		{9AD4D126-6D17-461A-B2FF-8DA34E969257}.Release|x86.Build.0 = Release|x86
+		{0FA1A89F-082D-47E9-90E2-CF4AB1DBA322}.Debug|Any CPU.ActiveCfg = Debug
+		{0FA1A89F-082D-47E9-90E2-CF4AB1DBA322}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{0FA1A89F-082D-47E9-90E2-CF4AB1DBA322}.Debug|Mixed Platforms.Build.0 = Debug
+		{0FA1A89F-082D-47E9-90E2-CF4AB1DBA322}.Debug|x86.ActiveCfg = Debug
+		{0FA1A89F-082D-47E9-90E2-CF4AB1DBA322}.Debug|x86.Build.0 = Debug
+		{0FA1A89F-082D-47E9-90E2-CF4AB1DBA322}.Release|Any CPU.ActiveCfg = Release
+		{0FA1A89F-082D-47E9-90E2-CF4AB1DBA322}.Release|Mixed Platforms.ActiveCfg = Release
+		{0FA1A89F-082D-47E9-90E2-CF4AB1DBA322}.Release|Mixed Platforms.Build.0 = Release
+		{0FA1A89F-082D-47E9-90E2-CF4AB1DBA322}.Release|x86.ActiveCfg = Release
+		{0FA1A89F-082D-47E9-90E2-CF4AB1DBA322}.Release|x86.Build.0 = Release
+		{37A36791-A888-4D4A-93BA-050FAF043E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37A36791-A888-4D4A-93BA-050FAF043E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37A36791-A888-4D4A-93BA-050FAF043E59}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{37A36791-A888-4D4A-93BA-050FAF043E59}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{37A36791-A888-4D4A-93BA-050FAF043E59}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{37A36791-A888-4D4A-93BA-050FAF043E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37A36791-A888-4D4A-93BA-050FAF043E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37A36791-A888-4D4A-93BA-050FAF043E59}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{37A36791-A888-4D4A-93BA-050FAF043E59}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{37A36791-A888-4D4A-93BA-050FAF043E59}.Release|x86.ActiveCfg = Release|Any CPU
+		{84375BBD-52AD-446B-A42C-56A94895F431}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{84375BBD-52AD-446B-A42C-56A94895F431}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{84375BBD-52AD-446B-A42C-56A94895F431}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{84375BBD-52AD-446B-A42C-56A94895F431}.Debug|x86.ActiveCfg = Debug|x86
+		{84375BBD-52AD-446B-A42C-56A94895F431}.Debug|x86.Build.0 = Debug|x86
+		{84375BBD-52AD-446B-A42C-56A94895F431}.Release|Any CPU.ActiveCfg = Release|x86
+		{84375BBD-52AD-446B-A42C-56A94895F431}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{84375BBD-52AD-446B-A42C-56A94895F431}.Release|Mixed Platforms.Build.0 = Release|x86
+		{84375BBD-52AD-446B-A42C-56A94895F431}.Release|x86.ActiveCfg = Release|x86
+		{84375BBD-52AD-446B-A42C-56A94895F431}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VSStyle = Office2010 (Silver).vssf
+		VSTargetControls = FormsAndControls
+		VSToolStripStyle = Mixed
+		VSTextShadow = True
+		VSSkinFlatStyles = True
+		VSSkinToggleButtons = True
+		VSUseSystemFonts = False
+		VSCustomBkgrdPaint = False
+	EndGlobalSection
+EndGlobal

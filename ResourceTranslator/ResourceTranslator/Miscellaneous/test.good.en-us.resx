@@ -1,0 +1,1099 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Sorry" xml:space="preserve">
+    <value>Duplicate Page</value>
+  </data>
+  <data name="fieldname_lifecycle_alert" xml:space="preserve">
+    <value>Lifecycle Alert</value>
+  </data>
+  <data name="fieldname_page_owner" xml:space="preserve">
+    <value>Page Owner</value>
+  </data>
+  <data name="fieldname_page_minorchange" xml:space="preserve">
+    <value>Minor Change</value>
+  </data>
+  <data name="fieldname_page_editsummary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="fieldname_tags" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="fieldname_wiki_content" xml:space="preserve">
+    <value>Wiki Content</value>
+  </data>
+  <data name="fieldname_is_default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="fieldname_is_automaticupdate" xml:space="preserve">
+    <value>AutomaticUpdate</value>
+  </data>
+  <data name="fieldname_wiki_rating" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="fieldname_wiki_subscriptions" xml:space="preserve">
+    <value>Subscriptions</value>
+  </data>
+  <data name="pagename_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="pagename_HowTo" xml:space="preserve">
+    <value>How To Use This Wiki Library</value>
+  </data>
+  <data name="pagename_HowToSite" xml:space="preserve">
+    <value>How To Use This Wiki Site</value>
+  </data>
+  <data name="sitecolumnsgroup" xml:space="preserve">
+    <value>WikiPlus</value>
+  </data>
+  <data name="wiki_createnewpage_desc" xml:space="preserve">
+    <value>Use this page to create a new WikiPlus page. You can add any content you want to the new page after you create it.</value>
+  </data>
+  <data name="wiki_createnewpage_title" xml:space="preserve">
+    <value>Create a new WikiPlus page</value>
+  </data>
+  <data name="wiki_editpage_OutOfDate" xml:space="preserve">
+    <value>Out of date</value>
+  </data>
+  <data name="wiki_notificationexpiredemail_body" xml:space="preserve">
+    <value>The [wiki page name] wiki page has expired. Please click the following link to review the page and approve it: [wiki page review link].
+Please click the following link to edit and save the page: [wiki page edit link].</value>
+  </data>
+  <data name="wiki_notificationexpiredemail_sublect" xml:space="preserve">
+    <value>Wiki page has expired</value>
+  </data>
+  <data name="wiki_field_name" xml:space="preserve">
+    <value>WikiPlus Field</value>
+  </data>
+  <data name="wiki_library_desc" xml:space="preserve">
+    <value>WikiPlus library type supports WikiPlus enhanced  functionality.</value>
+  </data>
+  <data name="wiki_library_name" xml:space="preserve">
+    <value>WikiPlus Library</value>
+  </data>
+  <data name="wiki_not_enough_permissions" xml:space="preserve">
+    <value>Sorry! You cannot change items which You are not owner of!</value>
+  </data>
+  <data name="wiki_plus__template_contenttype_desc" xml:space="preserve">
+    <value>WikiPlus Template Content Type</value>
+  </data>
+  <data name="wiki_plus__reusable_contenttype_desc" xml:space="preserve">
+    <value>WikiPlus Reusable Content Type</value>
+  </data>
+  <data name="wiki_plus_contenttype" xml:space="preserve">
+    <value>WikiPlus Page</value>
+  </data>
+  <data name="wiki_plus_contenttype_desc" xml:space="preserve">
+    <value>Create a new WikiPlus page.</value>
+  </data>
+  <data name="wiki_plus_contenttype_group" xml:space="preserve">
+    <value>WikiPlus</value>
+  </data>
+  <data name="wiki_plus_library_feature_desc" xml:space="preserve">
+    <value>Activate this feature to enable users to create WikiPlus libraries for enhanced wik-based collaboration.</value>
+  </data>
+  <data name="wiki_plus_library_feature_title" xml:space="preserve">
+    <value>WikiPlus Library Feature</value>
+  </data>
+  <data name="wiki_plus_library_resources_desc" xml:space="preserve">
+    <value>This feature creates all resources needed for the KWizCom WikiPlus solution.</value>
+  </data>
+  <data name="wiki_plus_library_resources_title" xml:space="preserve">
+    <value>WikiPlus Library Resources Feature</value>
+  </data>
+  <data name="wiki_plus_subscription_feature_title" xml:space="preserve">
+    <value>WikiPlus Subscription</value>
+  </data>
+  <data name="wiki_plus_subscription_feature_desc" xml:space="preserve">
+    <value>This feature enables KWizCom WikiPlus Subscription Service.</value>
+  </data>
+  <data name="wiki_plus_template_contenttype" xml:space="preserve">
+    <value>WikiPlus Template Content Type</value>
+  </data>
+  <data name="wiki_plus_reusable_contenttype" xml:space="preserve">
+    <value>WikiPlus Reusable Content Type</value>
+  </data>
+  <data name="wiki_plus_templates_list_feature_desc" xml:space="preserve">
+    <value>WikiPlus Content Template List Feature</value>
+  </data>
+  <data name="wiki_plus_templates_list_feature_title" xml:space="preserve">
+    <value>WikiPlus Content Template List Feature</value>
+  </data>
+  <data name="wiki_template_list_desc" xml:space="preserve">
+    <value>WikiPlus Content Template List</value>
+  </data>
+  <data name="wiki_plus_reusablecontent_list_feature_title" xml:space="preserve">
+    <value>WikiPlus Reusable Content List Feature</value>
+  </data>
+  <data name="wiki_reusablecontent_list_desc" xml:space="preserve">
+    <value>Items in this list contain HTML or text content which can be inserted into WikiPlus pages. If an item has automatic update selected, the content will be inserted into WikiPlus pages as a read-only reference, and the content will update if the item is changed. If the item does not have automatic update selected, the content will be inserted as a copy in the WikiPlus page, and the content will not update if the item is changed.</value>
+  </data>
+  <data name="wiki_template_list_name" xml:space="preserve">
+    <value>WikiPlus Content Templates</value>
+  </data>
+  <data name="wiki_reusablecontent_list_name" xml:space="preserve">
+    <value>WikiPlus ReusableContent</value>
+  </data>
+  <data name="wiki_imagessitecollection_list_name" xml:space="preserve">
+    <value>WikiPlus Site Collection Images</value>
+  </data>
+  <data name="wiki_imagessitecollection_list_desc" xml:space="preserve">
+    <value>WikiPlus Site Collection Images Library</value>
+  </data>
+  <data name="wiki_imagescurrentsite_list_name" xml:space="preserve">
+    <value>WikiPlus Images</value>
+  </data>
+  <data name="wiki_imagescurrentsite_list_desc" xml:space="preserve">
+    <value>WikiPlus Current Site Images</value>
+  </data>
+  <data name="wiki_documentssitecollection_list_name" xml:space="preserve">
+    <value>WikiPlus Site Collection Documents</value>
+  </data>
+  <data name="wiki_documentssitecollection_list_desc" xml:space="preserve">
+    <value>WikiPlus Site Collection Documents Library</value>
+  </data>
+  <data name="wiki_documentscurrentsite_list_name" xml:space="preserve">
+    <value>WikiPlus Documents</value>
+  </data>
+  <data name="wiki_documentssscurrentsite_list_desc" xml:space="preserve">
+    <value>WikiPlus Documents Library</value>
+  </data>
+  <data name="wiki_flashssitecollection_list_name" xml:space="preserve">
+    <value>WikiPlus Site Collection Flash Files</value>
+  </data>
+  <data name="wiki_flashsitecollection_list_desc" xml:space="preserve">
+    <value>WikiPlus Site Collection Flash Files</value>
+  </data>
+  <data name="wiki_flashcurrentsite_list_name" xml:space="preserve">
+    <value>WikiPlus Flash Files</value>
+  </data>
+  <data name="wiki_flashscurrentsite_list_desc" xml:space="preserve">
+    <value>WikiPlus Flash Files</value>
+  </data>
+  <data name="wiki_mediasitecollection_list_name" xml:space="preserve">
+    <value>WikiPlus Site Collection Media Files</value>
+  </data>
+  <data name="wiki_reusablecontentsitecollection_list_name" xml:space="preserve">
+    <value>WikiPlus Site Collection Reusable Content</value>
+  </data>
+  <data name="wiki_mediasitecollection_list_desc" xml:space="preserve">
+    <value>WikiPlus Site Collection Media Files</value>
+  </data>
+  <data name="wiki_mediacurrentsite_list_name" xml:space="preserve">
+    <value>WikiPlus Media Files</value>
+  </data>
+  <data name="wiki_reusablecontentcurrentsite_list_name" xml:space="preserve">
+    <value>WikiPlus Reusable Content</value>
+  </data>
+  <data name="wiki_mediacurrentsite_list_desc" xml:space="preserve">
+    <value>WikiPlus Media Files</value>
+  </data>
+  <data name="wikidiscussions_desc" xml:space="preserve">
+    <value>Discussions list includes all WikiPlus discussions for current site</value>
+  </data>
+  <data name="wikidiscussions_title" xml:space="preserve">
+    <value>WikiPlus Discussions</value>
+  </data>
+  <data name="wikipage_ResentDiscussions_title" xml:space="preserve">
+    <value>Recent Discussions</value>
+  </data>
+  <data name="wikipage_Close_title" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="wikipage_BackToPage_title" xml:space="preserve">
+    <value>Back to Page</value>
+  </data>
+  <data name="wikipage_Favorite_title" xml:space="preserve">
+    <value>Favorite</value>
+  </data>
+  <data name="wikipage_Favorite_ToolTip" xml:space="preserve">
+    <value>Add a link to My Site</value>
+  </data>
+  <data name="wikipage_Flat_title" xml:space="preserve">
+    <value>Flat</value>
+  </data>
+  <data name="wikipage_Threaded_title" xml:space="preserve">
+    <value>Threaded</value>
+  </data>
+  <data name="wikipage_Subscribe_title" xml:space="preserve">
+    <value>Subscribe:</value>
+  </data>
+  <data name="wikipage_Export_title" xml:space="preserve">
+    <value>Export:</value>
+  </data>
+  <data name="wikipage_Discussions_title" xml:space="preserve">
+    <value>Discussions</value>
+  </data>
+  <data name="wikipage_Print_title" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="wikipage_Spelling_title" xml:space="preserve">
+    <value>Spelling...</value>
+  </data>
+  <data name="wikipage_Preview_title" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="wikipage_ClonePage_title" xml:space="preserve">
+    <value>Duplicate Page</value>
+  </data>
+  <data name="wikipage_Apply_title" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="wikipage_Scope_title" xml:space="preserve">
+    <value>Scope:</value>
+  </data>
+  <data name="wikipage_URL_title" xml:space="preserve">
+    <value>URL:</value>
+  </data>
+  <data name="wikipage_FromDate_title" xml:space="preserve">
+    <value>From Date:</value>
+  </data>
+  <data name="wikipage_ToDate_title" xml:space="preserve">
+    <value>To Date:</value>
+  </data>
+  <data name="wikipage_Show_title" xml:space="preserve">
+    <value>Show:</value>
+  </data>
+  <data name="wikipage_viewedpages_title" xml:space="preserve">
+    <value>viewed pages</value>
+  </data>
+  <data name="wikipage_TreeMonth_title" xml:space="preserve">
+    <value>3 Month</value>
+  </data>
+  <data name="wikipage_SixMonth_title" xml:space="preserve">
+    <value>6 Month</value>
+  </data>
+  <data name="wikipage_OneYear_title" xml:space="preserve">
+    <value>1 Year</value>
+  </data>
+  <data name="wikipage_Scope_SiteCollection_title" xml:space="preserve">
+    <value>Site Collection</value>
+  </data>
+  <data name="wikipage_Scope_Site_title" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="wikipage_Scope_Wikilibrary_title" xml:space="preserve">
+    <value>Wiki library</value>
+  </data>
+  <data name="wikipage_Show_Top_title" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="wikipage_Show_Low_title" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="wikipage_Contributors_title" xml:space="preserve">
+    <value>contributors</value>
+  </data>
+  <data name="wikipage_CreateNewWiki_title" xml:space="preserve">
+    <value>Create a new Wiki page</value>
+  </data>
+  <data name="wikipage_Go_title" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="wikipage_TagsCloud_title" xml:space="preserve">
+    <value>Tags Cloud</value>
+  </data>
+  <data name="wikipagecreation_content_choosetemplate" xml:space="preserve">
+    <value>Choose a Content Template:</value>
+  </data>
+  <data name="wikipagecreation_content_description" xml:space="preserve">
+    <value>Select a content template.</value>
+  </data>
+  <data name="wikipagecreation_content_preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="wikipagecreation_content_title" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="wikipagecreation_CreateButton" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="wikipagecreation_Name" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="wikipagecreation_Name_Desc" xml:space="preserve">
+    <value>The title of a wiki page is displayed at the top of the page and can be used when creating a link to an existing page. Fill this field only if you want it to be different than the page's name.</value>
+  </data>
+  <data name="wikipagecreation_Name_Title" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="wikipagecreation_Title" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="wikipagecreation_Title_Desc" xml:space="preserve">
+    <value>Type a title for your Wiki Page.  The title appears in headings and links throughout the site.</value>
+  </data>
+  <data name="wikipagecreation_Title_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="wikipagecreation_overwrite_text" xml:space="preserve">
+    <value>Overwrite if file already exists?</value>
+  </data>
+  <data name="WikiPlusSite_Title" xml:space="preserve">
+    <value>WikiPlus Site</value>
+  </data>
+  <data name="wiki_notificationupdatingemail_body" xml:space="preserve">
+    <value>The [wiki page name] wiki page has been updated. Please click the following link to review the page [wiki page review link].
+Please click the following link to edit and save the page: [wiki page edit link].</value>
+  </data>
+  <data name="wiki_notificationupdatingemail_sublect" xml:space="preserve">
+    <value>Wiki page has been updated</value>
+  </data>
+  <data name="settings_expirationnotification_description" xml:space="preserve">
+    <value>Expiration Notification Settings</value>
+  </data>
+  <data name="settings_expirationnotification_title" xml:space="preserve">
+    <value>Expiration Notification Settings</value>
+  </data>
+  <data name="settings_updatenotification_description" xml:space="preserve">
+    <value>Update Notification Settings</value>
+  </data>
+  <data name="settings_enableupdatenotificationcheckbox_text" xml:space="preserve">
+    <value>Enable update notification</value>
+  </data>
+  <data name="settings_enableupdatenotificationcheckbox_tooltip" xml:space="preserve">
+    <value>Enable update notification</value>
+  </data>
+  <data name="settings_lifecyclecheckbox_text" xml:space="preserve">
+    <value>Enable life cycle</value>
+  </data>
+  <data name="settings_lifecyclecheckbox_tooltip" xml:space="preserve">
+    <value>Enable life cycle</value>
+  </data>
+  <data name="settings_updatenotification_title" xml:space="preserve">
+    <value>Update Notification Settings</value>
+  </data>
+  <data name="settings_pagetitle" xml:space="preserve">
+    <value>WikiPlus Settings</value>
+  </data>
+  <data name="settings_permissionsection_description" xml:space="preserve">
+    <value>Wiki Page Permissions Settings</value>
+  </data>
+  <data name="settings_permissionsection_title" xml:space="preserve">
+    <value>Wiki Page Permissions Settings</value>
+  </data>
+  <data name="settings_selectgroup_label" xml:space="preserve">
+    <value>Select Knowledge Trustee group:</value>
+  </data>
+  <data name="settings_editpagerigths_label" xml:space="preserve">
+    <value>Edit page rights:</value>
+  </data>
+  <data name="settings_editpagerigths_everyone_item" xml:space="preserve">
+    <value>Everyone who has edit rights</value>
+  </data>
+  <data name="settings_editpagerigths_ownersktgroup_item" xml:space="preserve">
+    <value>Owners and Knowledge Trustee group members only</value>
+  </data>
+  <data name="settings_editpagerigths_ktgroup_item" xml:space="preserve">
+    <value>Knowledge Trustee group members only</value>
+  </data>
+  <data name="settings_updatingemailsubject_label" xml:space="preserve">
+    <value>Updating notification email subject:</value>
+  </data>
+  <data name="settings_updatingemailbody_label" xml:space="preserve">
+    <value>Updating notification email body:</value>
+  </data>
+  <data name="settings_updatingemailbody_tokendescription" xml:space="preserve">
+    <value>The email message can include the following tokens:</value>
+  </data>
+  <data name="settings_notificationemailbeforedays_label" xml:space="preserve">
+    <value>Send notification before a wiki page is expired:</value>
+  </data>
+  <data name="settings_notificationemailbeforedays_3days_items" xml:space="preserve">
+    <value>3 Days</value>
+  </data>
+  <data name="settings_notificationemailbeforedays_4days_items" xml:space="preserve">
+    <value>4 Days</value>
+  </data>
+  <data name="settings_notificationemailbeforedays_5days_items" xml:space="preserve">
+    <value>5 Days</value>
+  </data>
+  <data name="settings_notificationemailbeforedays_6days_items" xml:space="preserve">
+    <value>6 Days</value>
+  </data>
+  <data name="settings_notificationemailbeforedays_1week_items" xml:space="preserve">
+    <value>1 Week</value>
+  </data>
+  <data name="settings_notificationemailbeforedays_2weeks_items" xml:space="preserve">
+    <value>2 Weeks</value>
+  </data>
+  <data name="settings_notificationemailbeforedays_3weeks_items" xml:space="preserve">
+    <value>3 Weeks</value>
+  </data>
+  <data name="settings_expirationemailsubject_label" xml:space="preserve">
+    <value>Email subject:</value>
+  </data>
+  <data name="settings_expirationemailbody_label" xml:space="preserve">
+    <value>Email body:</value>
+  </data>
+  <data name="settings_expirationemailbody_tokendescription" xml:space="preserve">
+    <value>The email message can include the following tokens:</value>
+  </data>
+  <data name="settings_templateslists_description" xml:space="preserve">
+    <value>Wiki content templates may be stored in various content template lists to include different templates for different audiences.
+Select the content template list that you wish users on your Wiki site to use.</value>
+  </data>
+  <data name="settings_templateslists_title" xml:space="preserve">
+    <value>WikiPlus Content Template Lists</value>
+  </data>
+  <data name="settings_inheritsettings_title" xml:space="preserve">
+    <value>Inherit Settings</value>
+  </data>
+  <data name="settings_inheritsettings_description" xml:space="preserve">
+    <value>Settings inheritance level</value>
+  </data>
+  <data name="settings_inheritsettingsweb_text" xml:space="preserve">
+    <value>Inherit settings from parent site collection</value>
+  </data>
+  <data name="settings_inheritsettingslib_text" xml:space="preserve">
+    <value>Inherit settings from parent site</value>
+  </data>
+  <data name="wiki_TOC_title" xml:space="preserve">
+    <value>Contents</value>
+  </data>
+  <data name="wiki_TOC_toggle_Hide" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="wiki_TOC_toggle_Show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="HistoryLinks_Edit_Suffix" xml:space="preserve">
+    <value> (Edit)</value>
+  </data>
+  <data name="HistoryLinks_Title" xml:space="preserve">
+    <value>Browse history:</value>
+  </data>
+  <data name="incominglinks_description" xml:space="preserve">
+    <value>The following pages link to this page:</value>
+  </data>
+  <data name="WikiHome_RateFieldTitle" xml:space="preserve">
+    <value>Rate this page</value>
+  </data>
+  <data name="WikiHome_TagsFieldTitle" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="WikiPlus_HomePageContent" xml:space="preserve">
+    <value>&lt;span style="FONT-FAMILY: Calibri"&gt;&lt;span style="FONT-SIZE: 11pt"&gt;&lt;strong&gt;Welcome to your wiki Plus site!&lt;br /&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;p&gt;&lt;span style="FONT-SIZE: 11pt"&gt;&lt;span style="FONT-FAMILY: Calibri"&gt;You can get started and add new Wiki pages by clicking &lt;strong&gt;"Create a new Wiki page"&lt;/strong&gt; link the Quick Launch. You can learn more about wiki Plus sites by clicking &lt;strong&gt;"How to use this wiki site"&lt;/strong&gt; in the Quick Launch.&lt;/span&gt; &lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="FONT-FAMILY: Calibri"&gt;&lt;span style="FONT-SIZE: 11pt"&gt;&lt;strong&gt;What is Wiki Plus?&lt;/strong&gt; &lt;br /&gt;&lt;br /&gt;Wiki Plus is an advanced, cross-organization, SharePoint-based knowledge-sharing and collaboration solution. &lt;br /&gt;&lt;br /&gt;Wiki Plus enables to easily create articles, tag and share them, making the collaboration experience much easier and practical.&lt;br /&gt;&lt;br /&gt;Example uses of Wiki Plus include group/department knowledgebase, Support knowledgebase, instruction guides, gathering data from the field, and building an encyclopedia of knowledge.&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="wikiplusTemplate_KBArticleContent" xml:space="preserve">
+    <value>==SUMMARY==&lt;br /&gt;This article describes the [Enter here a short description of this article's purpose]&lt;br /&gt;&lt;br /&gt;==INTRODUCTION==&lt;br /&gt;[In this section you present the issues that this article attempts to help users handle] &lt;br /&gt;# [Example numbered section]&lt;br /&gt;# [Example numbered section]: &lt;br /&gt;** [Example bulleted section]&lt;br /&gt;** [Example bulleted section]&lt;br /&gt;&lt;br /&gt;Note [example note] &lt;br /&gt;&lt;br /&gt;&lt;p&gt;==MORE INFORMATION==&lt;br /&gt;[Here you should provide full details including the issues symptoms and possible resolution options]&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="wikiplusTemplate_KBArticleTitle" xml:space="preserve">
+    <value>KB Article</value>
+  </data>
+  <data name="wikiplusTemplate_ProcedureContent" xml:space="preserve">
+    <value>==SUMMARY==&lt;BR&gt;This procedure describes [add you text here]&lt;BR&gt;==INTRODUCTION==&lt;BR&gt;Customers may issue complaints through various channels provided today:&lt;BR&gt;# Company web site feedback form&lt;BR&gt;# Sales Live Support&lt;BR&gt;# support phone/email channel&lt;BR&gt;&lt;BR&gt;In order to provide the best level of service that we all are committed to, the following procedure provides the guidelines for the management of such customer complaints.&lt;BR&gt;&lt;BR&gt;&lt;P&gt;==Procedure Details==&lt;BR&gt;[Here you should provide fuul procedure details - steps and who does what in each step]&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/P&gt;</value>
+  </data>
+  <data name="wikiplusTemplate_ProcedureTitle" xml:space="preserve">
+    <value>Procedure</value>
+  </data>
+  <data name="wikiplusTemplate_SourceCodeSampleContent" xml:space="preserve">
+    <value>==SUMMARY==&lt;BR&gt;This code sample demonstrates [for you to complete]&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;==Code sample details==&lt;BR&gt;
+&lt;P&gt;
+&lt;TABLE cellSpacing=0 cellPadding=0 bgColor=#f4f4f4 border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#e9e9e9&gt;&lt;PRE&gt;&lt;P&gt;Use Utilities:&lt;BR&gt;&lt;/P&gt;&lt;P&gt;&lt;BR&gt;List.GetListItemCollection(list, "");//Get default view items&lt;BR&gt;List.GetListItemCollection(list, "My Tasks");//Get only My Tasks items&lt;/P&gt;&lt;/PRE&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/P&gt;&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;P&gt;[Here you should provide full details about the source code]&lt;BR&gt;&lt;/P&gt;&lt;BR&gt;
+</value>
+  </data>
+  <data name="wikiplusTemplate_SourceCodeSampleTitle" xml:space="preserve">
+    <value>Source Code Sample</value>
+  </data>
+  <data name="WikiPlus_HomePageRatingViewTitle" xml:space="preserve">
+    <value>Best rated articles</value>
+  </data>
+  <data name="sitehomepage_5toppages_title" xml:space="preserve">
+    <value>Wiki Pages</value>
+  </data>
+  <data name="sitehomepage_populartags_title" xml:space="preserve">
+    <value>Popular Tags</value>
+  </data>
+  <data name="wikiplus_filepicker_pagecaption" xml:space="preserve">
+    <value>Page:</value>
+  </data>
+  <data name="wikiplus_newwiki_linktitle" xml:space="preserve">
+    <value>Link title</value>
+  </data>
+  <data name="wikiplus_newwiki_pagename" xml:space="preserve">
+    <value>Page name</value>
+  </data>
+  <data name="reports_comments" xml:space="preserve">
+    <value>This report is updated every 5 minutes.</value>
+  </data>
+  <data name="reports_contributersreport_title" xml:space="preserve">
+    <value>WikiPlus Contributors Report</value>
+  </data>
+  <data name="reports_pagesreport_title" xml:space="preserve">
+    <value>WikiPlus Pages Report</value>
+  </data>
+  <data name="reports_mysubscriptionsreport_title" xml:space="preserve">
+    <value>WikiPlus My Subscriptions Report</value>
+  </data>
+  <data name="reports_filter_title" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="reports_report_title" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="wikiplus_InvalidFileOrFolderName" xml:space="preserve">
+    <value>The file or folder name "{0}" contains invalid characters. Please use a different name. Invalid characters include the following: ~ " # % &amp; * : &lt; &gt; ? / \ &amp;#0123; | &amp;#0125;. The name cannot begin or end with dot and cannot contain consecutive dots.</value>
+  </data>
+  <data name="wikiplus_lifecycle_customdate_description" xml:space="preserve">
+    <value>Custom Date (mm/dd/yyyy)</value>
+  </data>
+  <data name="wikiplus_lifecycle_or" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="resentDiscussions_From_Title" xml:space="preserve">
+    <value>From:</value>
+  </data>
+  <data name="resentDiscussions_Header_Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="resentDiscussions_Header_Post" xml:space="preserve">
+    <value>Post</value>
+  </data>
+  <data name="resentDiscussions_Posted_Title" xml:space="preserve">
+    <value>Posted:</value>
+  </data>
+  <data name="resentDiscussions_Subject_Title" xml:space="preserve">
+    <value>Subject:</value>
+  </data>
+  <data name="resentDiscussions_AddNewDiscussion_Link" xml:space="preserve">
+    <value>Add new discussion</value>
+  </data>
+  <data name="wiki_editsection_link" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="wikiplus_control_delete_confirm" xml:space="preserve">
+    <value>There are incoming links to this page, are you sure you want to delete it?</value>
+  </data>
+  <data name="description_wiki_rating" xml:space="preserve">
+    <value>(Click the stars to rate the page)</value>
+  </data>
+  <data name="fieldname_wiki_minor_change" xml:space="preserve">
+    <value>Minor Change</value>
+  </data>
+  <data name="wikiplus_LockMessage" xml:space="preserve">
+    <value>This page is being edited by {0} right now, try again later.</value>
+  </data>
+  <data name="fieldname_wiki_edit_summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="wikiplus_control_delete_section_button" xml:space="preserve">
+    <value>Delete Section</value>
+  </data>
+  <data name="wikiplus_control_delete_section_confirm" xml:space="preserve">
+    <value>Are you sure you want to delete this section?</value>
+  </data>
+  <data name="wikiplus_control_delete_item_button" xml:space="preserve">
+    <value>Delete Item</value>
+  </data>
+  <data name="wikiplus_control_delete_item_confirm" xml:space="preserve">
+    <value>Are you sure you want to delete this item?</value>
+  </data>
+  <data name="settings_pagename_autogenerateLabel" xml:space="preserve">
+    <value>Autogenerate WikiPlus page name</value>
+  </data>
+  <data name="settings_pagename_description" xml:space="preserve">
+    <value>WikiPlus page name settings</value>
+  </data>
+  <data name="settings_pagename_patternLabel" xml:space="preserve">
+    <value>WikiPlus page name pattern</value>
+  </data>
+  <data name="settings_pagename_title" xml:space="preserve">
+    <value>WikiPlus Page Name Settings</value>
+  </data>
+  <data name="wikiplus_SubscriptionButton_Subscribe" xml:space="preserve">
+    <value>Subscribe</value>
+  </data>
+  <data name="wikiplus_SubscriptionButton_Unsubscribe" xml:space="preserve">
+    <value>Unsubscribe</value>
+  </data>
+  <data name="wikiplus_page_hitcounter_text" xml:space="preserve">
+    <value>Total Views:</value>
+  </data>
+  <data name="wikiplusVersions_CaptureText" xml:space="preserve">
+    <value>Hidden at {0} by {1}   {2}</value>
+  </data>
+  <data name="wikiplusVersions_Hide" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="wikiplusVersions_Show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="wiki_plus_clonecompleted_message" xml:space="preserve">
+    <value>This is your new page.</value>
+  </data>
+  <data name="fieldname_wiki_patrol" xml:space="preserve">
+    <value>Patrol</value>
+  </data>
+  <data name="description_wiki_patrol" xml:space="preserve">
+    <value>Click checkbox to mark page patrolled</value>
+  </data>
+  <data name="description_wiki_unpatrol" xml:space="preserve">
+    <value>Click checkbox to mark page unpatrolled</value>
+  </data>
+  <data name="wikiplus_patrol_modifiedby_text" xml:space="preserve">
+    <value>Midified By</value>
+  </data>
+  <data name="wikiplus_patrol_no_text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="wikiplus_patrol_patrolled_text" xml:space="preserve">
+    <value>Patrolled</value>
+  </data>
+  <data name="wikiplus_patrol_time_text" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="wikiplus_patrol_user_text" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="wikiplus_patrol_current_version_text" xml:space="preserve">
+    <value>Current Version</value>
+  </data>
+  <data name="wikiplus_patrol_yes_text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="wikiplus_patrol_last_patrolled_version_text" xml:space="preserve">
+    <value>Last Patrolled Version</value>
+  </data>
+  <data name="wikiplus_patrol_image_tooltip_text" xml:space="preserve">
+    <value>Patrolled: {0}\nModified By: {1}\nTime: {2}\nLast Patrolled Version: {3}\nCurrent Version: {4}</value>
+  </data>
+  <data name="wikiplus_patrol_not_patrolled_image_path" xml:space="preserve">
+    <value>~/_layouts/kwizcom_patrolsolution/images/button_cancel.gif</value>
+  </data>
+  <data name="wikiplus_patrol_patrolled_image_path" xml:space="preserve">
+    <value>~/_layouts/kwizcom_patrolsolution/images/checkmark.jpg</value>
+  </data>
+  <data name="wikiplus_patrol_patrolled_message_text" xml:space="preserve">
+    <value>Patrolled at {0}  by {1}  {2} (Current Version: {3} Last Patrolled Version: {4})</value>
+  </data>
+  <data name="wikiplus_patrol_unpatrolled_message_text" xml:space="preserve">
+    <value>Unpatrolled at {0}  by {1}  {2} (Current Version: {3} Last Patrolled Version: {4})</value>
+  </data>
+  <data name="wikipage_alertme_tooltip" xml:space="preserve">
+    <value>Subscribe to e-mail alert notifying.</value>
+  </data>
+  <data name="wikipage_rss_tooltip" xml:space="preserve">
+    <value>View feeds on this page.</value>
+  </data>
+  <data name="wikiplus_navigation_allreports_link_text" xml:space="preserve">
+    <value>WikiPlus Reports</value>
+  </data>
+  <data name="wikiplus_navigation_allreports_link_tooltip" xml:space="preserve">
+    <value>Available WikiPlus reports.</value>
+  </data>
+  <data name="wikiplus_navigation_contributorsreport_link_text" xml:space="preserve">
+    <value>Contributors Report</value>
+  </data>
+  <data name="wikiplus_navigation_contributorsreport_link_tooltip" xml:space="preserve">
+    <value>Click on the link to view contributors report.</value>
+  </data>
+  <data name="wikiplus_navigation_mysubscriptions_link_text" xml:space="preserve">
+    <value>My Subscriptions Report</value>
+  </data>
+  <data name="wikiplus_navigation_mysubscriptions_link_tooltip" xml:space="preserve">
+    <value>Click on the link to view your subscriptions report.</value>
+  </data>
+  <data name="wikiplus_navigation_reports_link_text" xml:space="preserve">
+    <value>Pages Report</value>
+  </data>
+  <data name="wikiplus_navigation_reports_link_tooltip" xml:space="preserve">
+    <value>Click on the link to view Pages report.</value>
+  </data>
+  <data name="wikiplus_Reports_Captions_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="wikiplus_Reports_Captions_Modified" xml:space="preserve">
+    <value>Last modified at</value>
+  </data>
+  <data name="wikiplus_Reports_Captions_Editor" xml:space="preserve">
+    <value>Last modified by</value>
+  </data>
+  <data name="wikiplus_Reports_Captions_Tags" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="wikiplus_Reports_Captions_MinorChange" xml:space="preserve">
+    <value>Minor edit</value>
+  </data>
+  <data name="wikiplus_Reports_Captions_PageOwner" xml:space="preserve">
+    <value>Owned by</value>
+  </data>
+  <data name="wikiplus_Reports_Captions_PageOwnerNot" xml:space="preserve">
+    <value>Not owned by</value>
+  </data>
+  <data name="wikiplus_Reports_Captions_Subscriptions" xml:space="preserve">
+    <value>Subscriptions</value>
+  </data>
+  <data name="wikiplus_Reports_Captions_SiteTitle" xml:space="preserve">
+    <value>Site name</value>
+  </data>
+  <data name="wikiplus_Reports_Captions_ListTitle" xml:space="preserve">
+    <value>List name</value>
+  </data>
+  <data name="wikiplus_Reports_Captions_UserName" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="wikiplus_Reports_Captions_HitDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="wikiplus_Reports_Captions_IsUpdate" xml:space="preserve">
+    <value>Updated</value>
+  </data>
+  <data name="wikiplus_Reports_Captions_IsCreate" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="settings_welcomepage_textboxlabel" xml:space="preserve">
+    <value>Enter a valid welcome page address. Url must be relative to web site address (i.e. starting with /wikipages/filename.aspx)</value>
+  </data>
+  <data name="settings_welcomepage_title" xml:space="preserve">
+    <value>WikiPlus welcome page settings</value>
+  </data>
+  <data name="settings_welcomepage_description" xml:space="preserve">
+    <value>WikiPlus welcome page settings</value>
+  </data>
+  <data name="wiki_visiocurrentsite_list_desc" xml:space="preserve">
+    <value>WikiPlus Visio Files</value>
+  </data>
+  <data name="wiki_visiocurrentsite_list_name" xml:space="preserve">
+    <value>WikiPlus Visio Files</value>
+  </data>
+  <data name="wiki_visiositecollection_list_desc" xml:space="preserve">
+    <value>WikiPlus Site Collection Visio Files</value>
+  </data>
+  <data name="wiki_visiositecollection_list_name" xml:space="preserve">
+    <value>WikiPlus Site Collection Visio Files</value>
+  </data>
+  <data name="settings_auto_generate_page_name_tokendescription" xml:space="preserve">
+    <value>The page name can include the following tokens:</value>
+  </data>
+  <data name="wikiplus_SubscriptionButton_Subscribe_ImageUrl" xml:space="preserve">
+    <value>~/_layouts/images/icon_addToView_16px.gif</value>
+  </data>
+  <data name="wikiplus_SubscriptionButton_Unsubscribe_ImageUrl" xml:space="preserve">
+    <value>~/_layouts/images/icon_removeFromView_16px.gif</value>
+  </data>
+  <data name="wikiplus_SubscriptionButton_Subscribe_ToolTip" xml:space="preserve">
+    <value>Click on the link to subscribe to the page and add it to My Subscriptions view.</value>
+  </data>
+  <data name="wikiplus_SubscriptionButton_Unsubscribe_ToolTip" xml:space="preserve">
+    <value>Click on the link to unsubscribe from the page and remove it from My Subscriptions view.</value>
+  </data>
+  <data name="wikiplus_SubscriptionButton_Subscribe_Message" xml:space="preserve">
+    <value>You have successfully subscribed to this page. Automatic refresh in 3 seconds.</value>
+  </data>
+  <data name="wikiplus_SubscriptionButton_Unsubscribe_Message" xml:space="preserve">
+    <value>You have successfully unsubscribed from this page. Automatic refresh in 3 seconds.</value>
+  </data>
+  <data name="wiki_silverlightcurrentsite_list_desc" xml:space="preserve">
+    <value>WikiPlus Silverlight Files</value>
+  </data>
+  <data name="wiki_silverlightcurrentsite_list_name" xml:space="preserve">
+    <value>WikiPlus Silverlight Files</value>
+  </data>
+  <data name="wiki_silverlightsitecollection_list_desc" xml:space="preserve">
+    <value>WikiPlus Site Collection Silverlight Files</value>
+  </data>
+  <data name="wiki_silverlightsitecollection_list_name" xml:space="preserve">
+    <value>WikiPlus Site Collection Silverlight Files</value>
+  </data>
+  <data name="wikiplus_empty_text" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="wikiplus_patrol_field_desc" xml:space="preserve">
+    <value>Specify which SharePoint group has the permission to mark pages patrolled</value>
+  </data>
+  <data name="wikiplus_patrol_field_title" xml:space="preserve">
+    <value>Content Patrol Group Settings</value>
+  </data>
+  <data name="wikiplus_paragraphs_address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="wikiplus_paragraphs_dirList" xml:space="preserve">
+    <value>Directory List</value>
+  </data>
+  <data name="wikiplus_paragraphs_formatted" xml:space="preserve">
+    <value>Formatted</value>
+  </data>
+  <data name="wikiplus_paragraphs_heading1" xml:space="preserve">
+    <value>Heading 1</value>
+  </data>
+  <data name="wikiplus_paragraphs_heading2" xml:space="preserve">
+    <value>Heading 2</value>
+  </data>
+  <data name="wikiplus_paragraphs_heading3" xml:space="preserve">
+    <value>Heading 3</value>
+  </data>
+  <data name="wikiplus_paragraphs_heading4" xml:space="preserve">
+    <value>Heading 4</value>
+  </data>
+  <data name="wikiplus_paragraphs_heading5" xml:space="preserve">
+    <value>Heading 5</value>
+  </data>
+  <data name="wikiplus_paragraphs_menuList" xml:space="preserve">
+    <value>Menu List</value>
+  </data>
+  <data name="wikiplus_paragraphs_normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="wiki_plus_life_cycle_alerts_feature_receiver_desc" xml:space="preserve">
+    <value>WikiPlus Lifecycle Alerts feature that installs a timer job for sending out notification emails for expired WikiPlus Pages.</value>
+  </data>
+  <data name="wiki_plus_life_cycle_alerts_feature_receiver_title" xml:space="preserve">
+    <value>WikiPlus Life Cycle Alerts</value>
+  </data>
+  <data name="wikiplus_usage_reports_contributors_report_title" xml:space="preserve">
+    <value>WikiPlus Contributors Report</value>
+  </data>
+  <data name="wikiplus_usage_reports_custom_action_group_title" xml:space="preserve">
+    <value>WikiPlus Administration Reports</value>
+  </data>
+  <data name="wikiplus_usage_reports_page_views_report_title" xml:space="preserve">
+    <value>WikiPlus Page-Views Report</value>
+  </data>
+  <data name="wikiplus_resourcesection_header" xml:space="preserve">
+    <value>Images and Attachments</value>
+  </data>
+  <data name="wikiplus_InsertListView_height_text" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="wikiplus_InsertListView_hide_menu_bar_text" xml:space="preserve">
+    <value>Hide Menu Bar</value>
+  </data>
+  <data name="wikiplus_InsertListView_open_links_in_new_window_text" xml:space="preserve">
+    <value>Open Links In New Window</value>
+  </data>
+  <data name="wikiplus_InsertListView_select_list_text" xml:space="preserve">
+    <value>Select List</value>
+  </data>
+  <data name="wikiplus_InsertListView_select_list_web_text" xml:space="preserve">
+    <value>Select Site Url</value>
+  </data>
+  <data name="wikiplus_InsertListView_select_view_name_text" xml:space="preserve">
+    <value>Select View</value>
+  </data>
+  <data name="wikiplus_InsertListView_height_text1" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="wikiplus_InsertListView_hide_menu_bar_text1" xml:space="preserve">
+    <value>Hide Menu Bar</value>
+  </data>
+  <data name="wikiplus_InsertListView_list_name_text" xml:space="preserve">
+    <value>List Name</value>
+  </data>
+  <data name="wikiplus_InsertListView_open_links_in_new_window_text1" xml:space="preserve">
+    <value>Open Links In New Window</value>
+  </data>
+  <data name="wikiplus_InsertListView_select_list_text1" xml:space="preserve">
+    <value>Select List</value>
+  </data>
+  <data name="wikiplus_InsertListView_select_list_web_text1" xml:space="preserve">
+    <value>Select Site Url</value>
+  </data>
+  <data name="wikiplus_InsertListView_select_view_name_text1" xml:space="preserve">
+    <value>Select View</value>
+  </data>
+  <data name="wikiplus_InsertListView_site_url_text" xml:space="preserve">
+    <value>Site Url</value>
+  </data>
+  <data name="wikiplus_InsertListView_view_name_text" xml:space="preserve">
+    <value>View Name</value>
+  </data>
+  <data name="settings_expirationnotificationfeatureactivationrequired_text" xml:space="preserve">
+    <value>In order to receive expiration notifications the WikiPlus Life Cycle Alerts web application feature must be enabled in Central Administration</value>
+  </data>
+  <data name="settings_EnableUsageLoggingCheckBox_text" xml:space="preserve">
+    <value>Enable Usage Logging</value>
+  </data>
+  <data name="settings_EnableUsageLoggingCheckBox_tooltip" xml:space="preserve">
+    <value>Enable Usage Logging</value>
+  </data>
+  <data name="settings_EnableUsageLoggingLabel_text" xml:space="preserve">
+    <value>Enable usage logging if you wish to log wiki pages' create/update/read activities. Usage information is then available in Wiki Plus reports.</value>
+  </data>
+  <data name="settings_UsageLoggingSettingsSection_description" xml:space="preserve">
+    <value>Usage Logging Settings</value>
+  </data>
+  <data name="settings_UsageLoggingSettingsSection_title" xml:space="preserve">
+    <value>Usage Logging Settings</value>
+  </data>
+  <data name="wikipage_Export_Pdf_title" xml:space="preserve">
+    <value>Export to PDF</value>
+  </data>
+  <data name="wikipage_Export_Word_title" xml:space="preserve">
+    <value>Export to Word</value>
+  </data>
+    <data name="settings_auto_generate_page_name_exampleslabel" xml:space="preserve">
+    <value>Examples:</value>
+  </data>
+    <data name="settings_auto_generate_page_name_exampleslabel1" xml:space="preserve">
+    <value>Examples:</value>
+  </data>
+    <data name="settings_cancelbutton_text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+    <data name="settings_okbutton_text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+    <data name="settings_resetbutton_text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+    <data name="settings_templateslists_currentsitelistslabel" xml:space="preserve">
+    <value>Current Site Lists</value>
+  </data>
+    <data name="settings_templateslists_currentsitelistslabel1" xml:space="preserve">
+    <value>Current Site Lists</value>
+  </data>
+    <data name="settings_templateslists_sitecollectionlistslabel" xml:space="preserve">
+    <value>Site Collection Lists</value>
+  </data>
+    <data name="settings_templateslists_sitecollectionlistslabel1" xml:space="preserve">
+    <value>Site Collection Lists</value>
+  </data>
+    <data name="wikiplus_usagereportslist_title" xml:space="preserve">
+    <value>Usage [year]</value>
+  </data>
+    <data name="wikiplus_reportslist_description" xml:space="preserve">
+    <value>WikiPlus Reports Library</value>
+  </data>
+    <data name="wikiplus_reportslist_title" xml:space="preserve">
+    <value>WikiPlus Reports</value>
+  </data>
+    <data name="ribbon_editlayoutbutton_description" xml:space="preserve">
+    <value>Puts the current page into layout edit mode so that webparts on the page can be modified.</value>
+  </data>
+    <data name="ribbon_editlayoutbutton_text" xml:space="preserve">
+    <value>Edit Layout</value>
+  </data>
+    <data name="ribbon_editlayoutbutton_tooltip" xml:space="preserve">
+    <value>Edit Layout</value>
+  </data>
+    <data name="ribbon_editpagebutton_description" xml:space="preserve">
+    <value>Puts the current page into content edit mode so that the content can be edited.</value>
+  </data>
+    <data name="ribbon_editpagebutton_text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+    <data name="ribbon_editpagebutton_tooltip" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+</root>
